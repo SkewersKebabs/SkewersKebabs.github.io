@@ -1,6 +1,6 @@
 $(document).on("scroll", function(){
     if
-  ($(document).scrollTop() > 50){
+  ($(document).scrollTop() > 20){
       $("header").addClass("shrink");
       document.getElementById("logo").setAttribute("style", "max-height: 100%;");
 

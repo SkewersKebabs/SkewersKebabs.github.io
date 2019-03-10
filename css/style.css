@@ -29,27 +29,29 @@ header .navigation {
 }
 
 header .navigation .navleft {
-    transform: skew(-20deg);
+    transform: skew(-30deg);
     float: left;
-    margin-left: 10px;
+    margin-left: -40px;
 }
 
 header .navigation .navright {
-    transform: skew(20deg);
+    transform: skew(30deg);
     float: right;
-    margin-right: 10px;
+    margin-right: -20px;
 }
 
 header .navigation .tab {
     color: white;
     display: inline-block;
-    width: 200px;
+    width: 275px;
     height: 50px;
 
+    margin-left: 20px;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
 }
+
 
 header .navigation .tab h2 {
     padding-top: 10px;
@@ -60,11 +62,11 @@ header .navigation .tab h2 {
 }
 
 header .navigation .navright .tab h2 {
-    transform: skew(-20deg);
+    transform: skew(-30deg);
 }
 
 header .navigation .navleft .tab h2 {
-    transform: skew(20deg);
+    transform: skew(30deg);
 }
 
 header .navigation .tab.active {
