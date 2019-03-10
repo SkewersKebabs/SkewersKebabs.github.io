@@ -3,7 +3,11 @@ body {
     font-family: 'Spectral', serif;
 }
 
-.banner {
+div {
+
+}
+
+header {
     z-index: 2;
     /* padding: 20px; */
     position: fixed;
@@ -13,7 +17,7 @@ body {
     /* background-color: rgb(0, 0, 0, 0); */
 }
 
-.banner .navigation {
+header .navigation {
     margin-right: 10px;
     float: right;
     /* vertical-align: middle; */
@@ -23,7 +27,15 @@ body {
     color: white;
 } */
 
-.banner .navigation .tab {
+header {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    height: 50px;
+}
+
+
+header .navigation .tab {
     color: white;
     display: inline-block;
     margin-right: 10px;
@@ -35,7 +47,7 @@ body {
     width: 100px; */
 }
 
-.banner .navigation .tab h2 {
+header .navigation .tab h2 {
     padding-top: 10px;
     margin: 0;
     text-align: center;
@@ -43,20 +55,24 @@ body {
     transform: skew(-20deg);
 }
 
-.banner .navigation .tab.active {
+header .navigation .tab.active {
     /* height: 100px; */
     background: white;
     color: black;
 }
 
-.banner .navigation .tab.active h2 {
+header .navigation .tab.active h2 {
     top: 60px;
 }
 
 #logo {
-    width: 20%;
-    margin-left: 10px;
-    margin-top: 10px;
+    max-height: 30px;
+    margin: 10px;
+}
+
+.shrink {
+  /* padding: 20px 0; */
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .container {
