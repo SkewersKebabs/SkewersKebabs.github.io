@@ -41,11 +41,14 @@ header .navigation .navright {
 }
 
 header .navigation .tab {
-    color: black;
+    color: white;
     display: inline-block;
     width: 200px;
     height: 50px;
-    background: white;
+
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
 }
 
 header .navigation .tab h2 {
@@ -66,8 +69,8 @@ header .navigation .navleft .tab h2 {
 
 header .navigation .tab.active {
     /* height: 100px; */
-    background: red;
-    color: black;
+    /* background: red; */
+    color: red;
 }
 
 header .navigation .tab.active h2 {
