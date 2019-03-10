@@ -17,34 +17,35 @@ header {
     /* background-color: rgb(0, 0, 0, 0); */
 }
 
-header .navigation {
-    margin-right: 10px;
-    float: right;
-    /* vertical-align: middle; */
-}
-
-/* .banner .navigation a {
-    color: white;
-} */
-
 header {
-    transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
     height: 50px;
 }
 
+header .navigation {
+    top: 0;
+}
+
+header .navigation .navleft {
+    transform: skew(-20deg);
+    float: left;
+    margin-left: 10px;
+}
+
+header .navigation .navright {
+    transform: skew(20deg);
+    float: right;
+    margin-right: 10px;
+}
 
 header .navigation .tab {
     color: white;
     display: inline-block;
-    margin-right: 10px;
     width: 200px;
     height: 50px;
-    transform: skew(20deg);
-    /* background: black; */
-    /* height: 0;
-    width: 100px; */
+
 }
 
 header .navigation .tab h2 {
@@ -52,7 +53,15 @@ header .navigation .tab h2 {
     margin: 0;
     text-align: center;
     font-size: 1.3em;
+
+}
+
+header .navigation .navright .tab h2 {
     transform: skew(-20deg);
+}
+
+header .navigation .navleft .tab h2 {
+    transform: skew(20deg);
 }
 
 header .navigation .tab.active {
@@ -66,8 +75,14 @@ header .navigation .tab.active h2 {
 }
 
 #logo {
-    max-height: 30px;
-    margin: 10px;
+    max-height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
 }
 
 .shrink {
