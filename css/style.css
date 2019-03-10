@@ -1,7 +1,5 @@
 body {
     margin: 0;
-    color: white;
-    background-color: black;
     font-family: 'Spectral', serif;
 }
 
@@ -16,15 +14,42 @@ body {
 }
 
 .banner .navigation {
-    font-size: 1.3em;
+    margin-right: 10px;
     float: right;
-    margin-top: 10px;
     /* vertical-align: middle; */
 }
 
+.banner .navigation a {
+    color: white;
+}
+
 .banner .navigation .tab {
-    display: inline;
-    margin-right: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    width: 200px;
+    height: 50px;
+    transform: skew(20deg);
+    /* background: black; */
+    /* height: 0;
+    width: 100px; */
+}
+
+.banner .navigation .tab h2 {
+    padding-top: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 1.3em;
+    transform: skew(-20deg);
+}
+
+.banner .navigation .tab.active {
+    /* height: 100px; */
+    background: white;
+    color: black;
+}
+
+.banner .navigation .tab.active h2 {
+    top: 60px;
 }
 
 #logo {
