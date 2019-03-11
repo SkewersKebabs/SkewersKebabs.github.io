@@ -93,20 +93,18 @@ header .navigation .tab.active h2 {
 }
 
 .background {
-    z-index: -2; 
+    z-index: -2;
+    background: url("../images/truck2.jpg"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-    height: 70%;
+    background-position: center;
+    /* background: url("../images/truck2.jpg"); */
+    height: 100%;
     width: 100%;
     position: fixed;
 
-}
-
-.menubackground {
-    background: url("../images/menubackground.jpg");
-    background-position: center left;
 }
 
 .imageoverlay {
@@ -114,7 +112,7 @@ header .navigation .tab.active h2 {
     /* background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)); */
     /* background: linear-gradient(to bottom left, rgba(256, 256, 256, 0.9), 25%, rgba(256, 256, 256, 0)); */
     background: linear-gradient(rgba(0, 0, 0, 0.8), 25%, rgba(0, 0, 0, 0));
-    height: 70%;
+    height: 100%;
     width: 100%;
     position: fixed;
 }
@@ -157,12 +155,11 @@ header .navigation .tab.active h2 {
     display: block;
 }
 
-.module-menu {
+.module {
     position: absolute;
     width: 100%;
-    top: 70%;
+    top: 90%;
     left: 0;
     height: 1000px;
-    background-color: black;
-    box-shadow: 0 0 100px 100px black;
+    background-color: white;
 }
