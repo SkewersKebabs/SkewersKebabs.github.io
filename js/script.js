@@ -21,7 +21,7 @@ $(document).on("scroll", function(){
         $(".tab").css({"background": "transparent", "color": "white"});
         $(".active").css({"background": "transparent", "color": "#E00000"});
 
-        $(".container-menu").css({"background": "black"})     
+        // $(".container-menu").css({"background": "black"})     
         
         $("header").css("opacity", 1);
     }
