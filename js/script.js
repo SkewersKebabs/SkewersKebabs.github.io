@@ -6,8 +6,8 @@ $(document).on("scroll", function(){
 
         document.getElementById("logo").setAttribute("style", "max-height: 30px;");
 
-        $(".tab").css({"background": "rgba(0, 0, 0, 1", "color": "white"});
-        $(".active").css({"background": "rgba(224,0,0, 1)", "color": "black"});
+        $(".tab").css({"background": "rgba(0, 0, 0, 1)", "color": "white"});
+        $(".active").css({"background": "black", "color": "#E00000"});
 
         $(".container-menu").css({"background": "#2f3138"});
 
@@ -30,7 +30,7 @@ $(document).on("scroll", function(){
 
 
 $(document).on("scroll", function() { 
-        $(".tab").hover(function() { 
+        $("header").hover(function() { 
             if ($(document).scrollTop() > ($(window).height() * .6)){
                 $("header").css("opacity", "1");
             }
