@@ -3,9 +3,7 @@ body {
     font-family: 'Spectral', serif;
 }
 
-div {
 
-}
 
 header {
     z-index: 2;
@@ -54,6 +52,7 @@ header .navigation .tab {
 }
 
 
+
 header .navigation .tab h2 {
     padding-top: 10px;
     margin: 0;
@@ -73,7 +72,7 @@ header .navigation .navleft .tab h2 {
 header .navigation .tab.active {
     /* height: 100px; */
     /* background: red; */
-    color: red;
+    color: #E00000;
 }
 
 header .navigation .tab.active h2 {
@@ -162,5 +161,5 @@ header .navigation .tab.active h2 {
     top: 100%;
     left: 0;
     height: 1000px;
-    background-color: white;
+    background-color: #111214;
 }
