@@ -207,7 +207,8 @@ header .navigation .tab#contact-tab:hover {
     padding: 20px;
     color: white;
     height: 90%;
-    background: #2a2e35;
+    background: url("../images/textures/mosaic.png");
+    background-repeat: repeat;
     width: 90%;
     z-index: 2;
     display: block;
@@ -222,9 +223,12 @@ header .navigation .tab#contact-tab:hover {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    color: #2a2e35;
+    color: white;
     font-size: 5em;
     text-align: center;
+    border-bottom: 1px solid white;
+    /* visibility: hidden; */
+    opacity: 0;
 
     transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in-out;

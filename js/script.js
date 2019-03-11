@@ -16,7 +16,7 @@ $(document).on("scroll", function(){
 
 
         $(".text").text("");
-        $(".title").css({"color": "white", "border-bottom": "1px solid white"});
+        $(".title").css({"opacity": "1"});
     }
     else
     {
@@ -33,7 +33,7 @@ $(document).on("scroll", function(){
 
 
         $(".text").text("Menu");
-        $(".title").css({"color": "#2a2e35",  "border-bottom": "1px solid #2A2E35"});
+        $(".title").css({"opacity": "0"});
     }
 
 
