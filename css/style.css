@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Spectral', serif;
+    overflow-x: hidden;
 }
 
 
@@ -89,7 +90,7 @@ header .navigation .tab.active h2 {
 .shrink {
   /* padding: 20px 0; */
   background-color: #1d1e22;
-  box-shadow: 0px 2px 2px black;
+  /* box-shadow: 0px 2px 2px black; */
 }
 
 .background {
@@ -119,7 +120,7 @@ header .navigation .tab.active h2 {
     position: fixed;
 }
 
-.videoContainer {
+/* .videoContainer {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -139,30 +140,37 @@ header .navigation .tab.active h2 {
     left: 0px;
     z-index: -1;
     background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
-}
+} */
 
-
-.maintext {
-    top: 5%;
+.banner {
+    display: table;
     width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    top: 20%;
+    color: white;
     position: absolute;
-
-}
-
-.maintext span {
     text-align: center;
-    font-size: 70pt;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
 }
 
-.module-menu {
+.banner span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 5em;
+    line-height: 100%;
+}
+
+.container-menu {
+    z-index: -1;
     position: absolute;
     width: 100%;
     top: 70%;
     left: 0;
     height: 1000px;
     background-color: black;
-    box-shadow: 0 0 100px 100px black;
+    box-shadow: 0 0 200px 200px black;
+
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
 }
