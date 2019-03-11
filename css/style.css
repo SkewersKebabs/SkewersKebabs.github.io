@@ -203,10 +203,9 @@ header .navigation .tab#contact-tab:hover {
     -moz-transition: all 0.2s ease-in-out;
 }
 
-.menu-module {
-    padding: 20px;
+.menu-container .menu-module {
+    /* padding: 100px; */
     color: white;
-    height: 90%;
     background: url("../images/textures/mosaic.png");
     background-repeat: repeat;
     width: 90%;
@@ -222,6 +221,7 @@ header .navigation .tab#contact-tab:hover {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 100px;
     display: block;
     color: white;
     font-size: 5em;
@@ -234,3 +234,32 @@ header .navigation .tab#contact-tab:hover {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
 }
+
+.menu-container .menu-module h2 {
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+.menu-container .menu-module p {
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow-x: hidden;
+}
+
+.menu-container .menu-module p:before {
+    content: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ';
+    width: 0;
+    float: left;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.menu-container .menu-module p span:first-child {
+    padding-right: 0.33em;
+}
+
+.menu-container .menu-module p span + span {
+    float: right;
+    padding-left: 0.33em;
+}
+
