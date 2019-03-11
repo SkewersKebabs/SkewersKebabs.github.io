@@ -87,11 +87,6 @@ header .navigation .tab.active h2 {
     margin-top: 5px;
 }
 
-.shrink {
-  /* padding: 20px 0; */
-  background-color: #1d1e22;
-  /* box-shadow: 0px 2px 2px black; */
-}
 
 .background {
     z-index: -2; 
