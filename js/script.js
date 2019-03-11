@@ -1,9 +1,10 @@
 $(document).on("scroll", function(){
     if
   ($(document).scrollTop() > ($(window).height() * .6)){
-        $("header").css("background", "rgba(29,30,34, 1)");
-        document.getElementById("logo").setAttribute("style", "max-height: 30px;");
+        // $("header").css("background", "rgba(29,30,34, 1)");
+        $("header").css("background", "black");
 
+        document.getElementById("logo").setAttribute("style", "max-height: 30px;");
 
         $(".tab").css({"background": "rgba(0, 0, 0, 1", "color": "white"});
         $(".active").css({"background": "rgba(224,0,0, 1)", "color": "black"});
@@ -39,4 +40,9 @@ $(document).on("scroll", function() {
                 $("header").css("opacity", "0.5");
             }
         }); 
+
+        // $("#tab-menu").hover(function() {
+        //     $("#tab-menu").css("background", "green");
+
+        // })
 }); 
