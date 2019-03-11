@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Spectral', serif;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 
@@ -72,6 +72,26 @@ header .navigation .tab.active {
 
 header .navigation .tab.active h2 {
     top: 60px;
+}
+
+header .navigation .tab#menu-tab:hover {
+    background: white !important;
+    color: black !important;
+}
+
+header .navigation .tab#preorder-tab:hover {
+    background: white !important;
+    color: black !important;
+}
+
+header .navigation .tab#about-tab:hover {
+    background: white !important;
+    color: black !important;
+}
+
+header .navigation .tab#contact-tab:hover {
+    background: white !important;
+    color: black !important;
 }
 
 #logo {
