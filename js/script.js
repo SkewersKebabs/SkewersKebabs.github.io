@@ -2,11 +2,11 @@ $(document).on("scroll", function(){
     if
   ($(document).scrollTop() > 20){
       $("header").addClass("shrink");
-      document.getElementById("logo").setAttribute("style", "max-height: 100%;");
+      document.getElementById("logo").setAttribute("style", "max-height: 50px;");
 
       var tabs = document.getElementsByClassName("tab");
       for (var i = 0; i < tabs.length; i++) {
-          tabs[i].setAttribute("style", "background: rgba(0, 0, 0, 0.5); color: white;");
+          tabs[i].setAttribute("style", "background: #393f4d; color: white;");
       }
 
       var activeTab = document.getElementsByClassName("active");

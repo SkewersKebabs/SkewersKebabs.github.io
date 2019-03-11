@@ -21,7 +21,7 @@ header {
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
-    height: 50px;
+    height: 25px;
 }
 
 header .navigation {
@@ -92,7 +92,7 @@ header .navigation .tab.active h2 {
 
 .shrink {
   /* padding: 20px 0; */
-  background-color: rgba(29,30,34, 0.7)
+  background-color: #1d1e22;
 }
 
 .container {
