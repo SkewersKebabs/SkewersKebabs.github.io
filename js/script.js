@@ -6,7 +6,7 @@ $(document).on("scroll", function(){
 
       var tabs = document.getElementsByClassName("tab");
       for (var i = 0; i < tabs.length; i++) {
-          tabs[i].setAttribute("style", "background: rgba(255, 255, 255, 0.2); color: white;");
+          tabs[i].setAttribute("style", "background: rgba(0, 0, 0, 0.5); color: white;");
       }
 
       var activeTab = document.getElementsByClassName("active");
