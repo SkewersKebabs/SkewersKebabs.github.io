@@ -1,6 +1,6 @@
 $(document).on("scroll", function(){
     if
-  ($(document).scrollTop() > ($(window).height() * .5)){
+  ($(document).scrollTop() > ($(window).height() * .4)){
         // $("header").css("background", "rgba(29,30,34, 1)");
         $("header").css("background", "black");
 
@@ -12,6 +12,11 @@ $(document).on("scroll", function(){
         // $(".container-menu").css({"background": "#2f3138"});
 
         $("header").css("opacity", "0.5");
+
+
+
+        $(".text").text("");
+        $(".title").css({"color": "white", "border-bottom": "1px solid white"});
     }
     else
     {
@@ -24,7 +29,15 @@ $(document).on("scroll", function(){
         // $(".container-menu").css({"background": "black"})     
         
         $("header").css("opacity", 1);
+
+
+
+        $(".text").text("Menu");
+        $(".title").css({"color": "#2a2e35",  "border-bottom": "1px solid #2A2E35"});
     }
+
+
+
 
     if ($(document).scrollTop() > 0) {
         document.getElementById("logo").setAttribute("style", "max-height: 30px;")
@@ -34,16 +47,28 @@ $(document).on("scroll", function(){
     }
 });
 
+// $(document).on("scroll", function() {
+//     if ($(document).scrollTop() > ($(window).height() * .4)) {
+//         $(".text").text("");
+//         $(".title").css({"color": "white", "border-bottom": "1px solid white"});
+//     }
+
+//     else {
+//         $(".text").text("Menu");
+//         $(".title").css({"color": "#2a2e35",  "border-bottom": "1px solid #2A2E35"});
+//     }
+// });
+
 
 
 $(document).ready( function() { 
         $("header").hover(function() { 
-            if ($(document).scrollTop() > ($(window).height() * .6)){
+            if ($(document).scrollTop() > ($(window).height() * .4)){
                 $("header").css("opacity", "1");
             }
         },
         function() {
-            if ($(document).scrollTop() > ($(window).height() * .6)){
+            if ($(document).scrollTop() > ($(window).height() * .4)){
                 $("header").css("opacity", "0.5");
             }
         }); 
@@ -53,3 +78,19 @@ $(document).ready( function() {
 
         // })
 }); 
+
+
+
+// HERO HEADER COPIED FROM ERIC PORTER: https://codepen.io/EricPorter/pen/rLJVNv
+(function () {
+    $(window).scroll(function () { 
+        var Num = $(window).scrollTop() / 500;
+        var Num2 = $(window).scrollTop() * .0004; // higher number for more zoom
+        var Num2mod = Num2 + 1;
+        var Num3 = $(window).scrollTop() * .2; // Title speed
+        var Num3mod = Num3 + 1;
+        return $('.shader').css('opacity', Num),
+        $(".background").css({"transform":"scale(" + Num2mod + ")"}),
+        $(".banner").css({"margin-top":"-" + Num3mod + "px"});
+    });
+}.call(this));
