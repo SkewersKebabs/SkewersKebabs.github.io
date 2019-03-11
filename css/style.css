@@ -21,7 +21,7 @@ header {
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
-    height: 25px;
+    height: 40px;
 }
 
 header .navigation {
@@ -50,6 +50,7 @@ header .navigation .tab {
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
+
 }
 
 
@@ -88,11 +89,13 @@ header .navigation .tab.active h2 {
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
+    margin-top: 5px;
 }
 
 .shrink {
   /* padding: 20px 0; */
   background-color: #1d1e22;
+  box-shadow: 0px 2px 2px black;
 }
 
 .container {
