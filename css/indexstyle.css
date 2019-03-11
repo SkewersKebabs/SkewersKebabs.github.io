@@ -136,7 +136,8 @@ header .navigation .tab.active h2 {
     top: 0px;
     left: 0px;
     z-index: -1;
-    background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
+    /* background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)); */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), 25%, rgba(0, 0, 0, 0));
 }
 
 
