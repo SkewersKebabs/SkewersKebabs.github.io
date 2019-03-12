@@ -64,14 +64,18 @@ $(document).on("scroll", function(){
 $(document).ready( function() { 
         $("header").hover(function() { 
             if ($(document).scrollTop() > ($(window).height() * .4)){
-                $("header").css("opacity", "1");
-                $(".tab").css("box-shadow", "inset 0px 0px 1px 1px white");
+                $("header").css({"opacity": "1"});
+                // $(".tab").css({"background": "white", "color": "black", "box-shadow": "inset 0px 0px 2px 2px black"});
+                $(".tab").css({"box-shadow": "inset 0px 0px 2px 2px white"});
+                // $(".active").css("color", "#E00000");
             }
         },
         function() {
             if ($(document).scrollTop() > ($(window).height() * .4)){
-                $("header").css("opacity", "0.5");
-                $(".tab").css("box-shadow", "");
+                $("header").css({"opacity": "0.5"});
+                // $(".tab").css({"background": "black", "color": "white", "box-shadow": ""});
+                $(".tab").css({"box-shadow": ""});
+                // $(".active").css("color", "#E00000");
             }
         }); 
 
