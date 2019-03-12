@@ -11,7 +11,7 @@ $(document).on("scroll", function(){
 
         // $(".container-menu").css({"background": "#2f3138"});
 
-        $("header").css("opacity", "0.5");
+        $("header").css("opacity", "0.3");
 
 
 
@@ -65,11 +65,13 @@ $(document).ready( function() {
         $("header").hover(function() { 
             if ($(document).scrollTop() > ($(window).height() * .4)){
                 $("header").css("opacity", "1");
+                $(".tab").css("box-shadow", "inset 0px 0px 1px 1px white");
             }
         },
         function() {
             if ($(document).scrollTop() > ($(window).height() * .4)){
                 $("header").css("opacity", "0.5");
+                $(".tab").css("box-shadow", "");
             }
         }); 
 
