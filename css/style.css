@@ -178,10 +178,11 @@ header .navigation .tab.active:hover {
     z-index: -1;
     display: table;
     width: 100%;
-    background: rgba(29,30,34, 0.7);
+    /* background: rgba(29,30,34, 0.7); */
+    background: rgba(255,255,255, 0.7);
     height: 20%;
     top: 20%;
-    color: white;
+    color: black;
     position: fixed;
     text-align: center;
 
