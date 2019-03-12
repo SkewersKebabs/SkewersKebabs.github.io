@@ -11,12 +11,16 @@ $(document).on("scroll", function(){
 
         // $(".container-menu").css({"background": "#2f3138"});
 
-        $("header").css("opacity", "0.3");
+        // $("header").css("opacity", "0.3");
+        $(".tab").css("opacity", "0.3");
+        $("header").css({"background": "rgba(0, 0, 0, 0.3"});
+        $("#logo").css({"opacity": "0.3"});
 
 
 
         $(".text").text("");
         $(".title").css({"opacity": "1"});
+
     }
     else
     {
@@ -28,8 +32,10 @@ $(document).on("scroll", function(){
 
         // $(".container-menu").css({"background": "black"})     
         
-        $("header").css("opacity", 1);
-
+        // $("header").css("opacity", 1);
+        $(".tab").css("opacity", "1");
+        $("header").css({"background": "rgba(0, 0, 0, 0"});
+        $("#logo").css({"opacity": "1"});
 
 
         $(".text").text("Menu");
@@ -60,30 +66,31 @@ $(document).on("scroll", function(){
 // });
 
 
+// ON-HOVER FOR ENTIRE HEADER BLOCK
 
-$(document).ready( function() { 
-        $("header").hover(function() { 
-            if ($(document).scrollTop() > ($(window).height() * .5)){
-                $("header").css({"opacity": "1"});
-                // $(".tab").css({"background": "white", "color": "black", "box-shadow": "inset 0px 0px 2px 2px black"});
-                $(".tab").css({"box-shadow": "inset 0px 0px 2px 2px white"});
-                // $(".active").css("color", "#E00000");
-            }
-        },
-        function() {
-            if ($(document).scrollTop() > ($(window).height() * .5)){
-                $("header").css({"opacity": "0.5"});
-                // $(".tab").css({"background": "black", "color": "white", "box-shadow": ""});
-                $(".tab").css({"box-shadow": ""});
-                // $(".active").css("color", "#E00000");
-            }
-        }); 
+// $(document).ready( function() { 
+//         $("header").hover(function() { 
+//             if ($(document).scrollTop() > ($(window).height() * .5)){
+//                 $("header").css({"opacity": "1"});
+//                 // $(".tab").css({"background": "white", "color": "black", "box-shadow": "inset 0px 0px 2px 2px black"});
+//                 $(".tab").css({"box-shadow": "inset 0px 0px 2px 2px white"});
+//                 // $(".active").css("color", "#E00000");
+//             }
+//         },
+//         function() {
+//             if ($(document).scrollTop() > ($(window).height() * .5)){
+//                 $("header").css({"opacity": "0.5"});
+//                 // $(".tab").css({"background": "black", "color": "white", "box-shadow": ""});
+//                 $(".tab").css({"box-shadow": ""});
+//                 // $(".active").css("color", "#E00000");
+//             }
+//         }); 
 
-        // $("#tab-menu").hover(function() {
-        //     $("#tab-menu").css("background", "green");
+//         // $("#tab-menu").hover(function() {
+//         //     $("#tab-menu").css("background", "green");
 
-        // })
-}); 
+//         // })
+// }); 
 
 
 

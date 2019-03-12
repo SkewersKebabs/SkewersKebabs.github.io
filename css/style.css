@@ -79,21 +79,25 @@ header .navigation .tab.active h2 {
 header .navigation .tab#menu-tab:hover {
     background: white!important;
     color: black !important;
+    opacity: 1 !important;
 }
 
 header .navigation .tab#preorder-tab:hover {
     background: white!important;
     color: black !important;
+    opacity: 1 !important;
 }
 
 header .navigation .tab#about-tab:hover {
     background: white!important;
     color: black !important;
+    opacity: 1 !important;
 }
 
 header .navigation .tab#contact-tab:hover {
     background: white!important;
     color: black !important;
+    opacity: 1 !important;
 }
 
 header .navigation .tab.active:hover {
@@ -111,6 +115,10 @@ header .navigation .tab.active:hover {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     margin-top: 5px;
+}
+
+#logo:hover {
+    opacity: 1 !important;
 }
 
 
