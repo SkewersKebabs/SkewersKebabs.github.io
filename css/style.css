@@ -200,7 +200,7 @@ header .navigation .tab.active:hover {
     width: 100%;
     top: 70%;
     left: 0;
-    height: 1000px;
+    height: 2000px; /* FIX */
     /* background-color: #1d1e22; */
     background: black;
     /* box-shadow: 0 0 200px 200px #1d1e22; */
@@ -246,13 +246,15 @@ header .navigation .tab.active:hover {
 
 .menu-container .menu-module h2 {
     margin-left: 100px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    font-size: 3em;
 }
 
 .menu-container .menu-module p {
     margin-left: 100px;
     margin-right: 100px;
     overflow-x: hidden;
+    font-size: 1.5em;
 }
 
 .menu-container .menu-module p:before {
