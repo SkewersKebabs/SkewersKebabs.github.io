@@ -1,6 +1,6 @@
 $(document).on("scroll", function(){
     if
-  ($(document).scrollTop() > ($(window).height() * .4)){
+  ($(document).scrollTop() > ($(window).height() * .5)){
         // $("header").css("background", "rgba(29,30,34, 1)");
         $("header").css("background", "black");
 
@@ -63,7 +63,7 @@ $(document).on("scroll", function(){
 
 $(document).ready( function() { 
         $("header").hover(function() { 
-            if ($(document).scrollTop() > ($(window).height() * .4)){
+            if ($(document).scrollTop() > ($(window).height() * .5)){
                 $("header").css({"opacity": "1"});
                 // $(".tab").css({"background": "white", "color": "black", "box-shadow": "inset 0px 0px 2px 2px black"});
                 $(".tab").css({"box-shadow": "inset 0px 0px 2px 2px white"});
@@ -71,7 +71,7 @@ $(document).ready( function() {
             }
         },
         function() {
-            if ($(document).scrollTop() > ($(window).height() * .4)){
+            if ($(document).scrollTop() > ($(window).height() * .5)){
                 $("header").css({"opacity": "0.5"});
                 // $(".tab").css({"background": "black", "color": "white", "box-shadow": ""});
                 $(".tab").css({"box-shadow": ""});
