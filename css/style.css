@@ -317,10 +317,44 @@ header .navigation .tab.active:hover {
 
 /* NEW AFTER SHARING WITH KRIS */
 
-.menu-container .menu-module .menu-image {
-    height: 100px;
+.menu-container .menu-module #menu-image1 {
+    height: 150px;
+    float: left;
+    margin-left: 100px;
+}
+
+.menu-container .menu-module #menu-image2 {
+    height: 150px;
     float: right;
     margin-right: 100px;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.menu-container .menu-module #menu-image3 {
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: -125px;
+}
+
+.menu-container .menu-module #menu-image4 {
+    height: 80px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -125px;
+}
+
+.menu-container .menu-module #menu-image5 {
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -125px;
 }
 
 .menu-container .menu-module .menu-content {
