@@ -104,6 +104,7 @@ $(document).on("scroll", function(){
         var Num3mod = Num3 + 1;
         return $('.shader').css('opacity', Num),
         $(".background").css({"transform":"scale(" + Num2mod + ")"}),
+        $(".videoContainer").css({"transform":"scale(" + Num2mod + ")"}),
         $(".banner").css({"margin-top":"-" + Num3mod + "px"});
     });
 }.call(this));
