@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Fjalla One', sans-serif;
+    overflow-y: hidden;
 }
 
 
@@ -183,4 +184,59 @@ header .navigation .tab#contact-tab:hover {
     left: 0;
     height: 1000px;
     background-color: white;
+}
+
+/* ADDED NEW */
+
+.index-banner {
+    display: table;
+    position: absolute;
+    height: 20%;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+}
+
+.index-banner-background-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.index-banner-background-container-inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 30%;
+}
+
+.index-banner-background1 {
+    position: absolute;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    transform: skew(45deg);
+    height: 100%;
+    width: 30%;
+}
+
+.index-banner-background2 {
+    position: absolute;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    transform: skew(-45deg);
+    height: 100%;
+    width: 30%;
+}
+
+
+
+
+.index-banner .index-banner-content {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 2em;
+    height: 100%;
+
 }
