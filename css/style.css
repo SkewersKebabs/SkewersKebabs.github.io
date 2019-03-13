@@ -317,6 +317,11 @@ header .navigation .tab.active:hover {
 
 /* NEW AFTER SHARING WITH KRIS */
 
+.menu-container .menu-module .menu-content {
+    font-family: 'Cabin Sketch', cursive;
+    margin-top: 100px;
+}
+
 .menu-container .menu-module #menu-image1 {
     height: 150px;
     float: left;
@@ -337,7 +342,7 @@ header .navigation .tab.active:hover {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-bottom: -125px;
 }
 
@@ -357,7 +362,5 @@ header .navigation .tab.active:hover {
     margin-bottom: -125px;
 }
 
-.menu-container .menu-module .menu-content {
-    font-family: 'Cabin Sketch', cursive;
-}
+
 
