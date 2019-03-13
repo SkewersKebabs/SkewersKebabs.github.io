@@ -253,7 +253,7 @@ header .navigation .tab.active:hover {
     /* padding: 100px; */
     color: white;
     background: url("../images/textures/blackboard2.jpg");
-    filter: contrast(0.8);
+    filter: contrast(0.9);          /* NEWLY EDITED */
     background-repeat: repeat;
     width: 90%;
     z-index: 2;
@@ -321,5 +321,9 @@ header .navigation .tab.active:hover {
     height: 100px;
     float: right;
     margin-right: 100px;
+}
+
+.menu-container .menu-module .menu-content {
+    font-family: 'Cabin Sketch', cursive;
 }
 
