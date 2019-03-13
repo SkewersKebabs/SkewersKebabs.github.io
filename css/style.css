@@ -360,6 +360,9 @@ header .navigation .tab.active:hover {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: -125px;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 
