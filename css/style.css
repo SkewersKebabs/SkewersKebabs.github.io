@@ -5,7 +5,6 @@ body {
     background: black;
 }
 
-
 header {
     z-index: 5;
     transition: all 0.2s ease-in-out;
@@ -208,7 +207,7 @@ header .navigation .tab.active:hover {
     width: 100%;
     top: 70%;
     left: 0;
-    height: 2000px; /* FIX */
+    /* height: 2000px; */
     /* background-color: #1d1e22; */
     background: black;
     /* box-shadow: 0 0 200px 200px #1d1e22; */
