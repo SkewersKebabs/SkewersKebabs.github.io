@@ -8,21 +8,25 @@
         <title>Skewers | Home</title>
 
         <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
+
+        <link rel="icon" href="favicon.icon" type="image/x-icon" />
     </head>
 
     <body>
         <!-- <div class="videoContainer hide-for-small-only">
             <div class="videooverlay"></div>
                 <video autoplay loop muted>
-                    <source src="images/background.mp4" type="video/mp4">
+                    <source src="images/melbourne.mp4" type="video/mp4">
                     <source src="<?=URL?>public/videos/vid.webm" type="video/webm">
                 </video>
         </div> -->
 
-            <div class="background">
+            <div class="background menubackground">
                 <div class="imageoverlay">
                 </div>
             </div>
+            <div class="shader"></div>
 
 
 
@@ -31,14 +35,14 @@
                 
                 <div class="navigation">
                     <div class="navleft">
-                        <a href="index.html">
-                            <div class="tab">
+                        <a href="menu.html">
+                            <div class="tab active" id="menu-tab">
                                 <h2>MENU</h2>
                             </div>
                         </a>
 
-                        <a href="menu.html">
-                            <div class="tab">
+                        <a href="preorder.html">
+                            <div class="tab" id="preorder-tab">
                                 <h2>PREORDER</h2>
                             </div>
                         </a>
@@ -47,14 +51,14 @@
 
 
                     <div class="navright">
-                        <a href="preorder.html">
-                            <div class="tab">
+                        <a href="about.html">
+                            <div class="tab" id="about-tab">
                                 <h2>ABOUT</h2>
                             </div>
                         </a>
 
-                        <a href="about.html">
-                            <div class="tab">
+                        <a href="contact.html">
+                            <div class="tab" id="contact-tab">
                                 <h2>CONTACT</h2>
                             </div>
                         </a>
@@ -67,8 +71,59 @@
             <!-- <div class="maintext">
                 <span>kebabs<br>done<br>right</span>
             </div> -->
-            <!-- <div class="module">
-                Test
-            </div> -->
+            <div class="banner">
+                <div class="text">
+                    Menu 
+                </div>
+            </div>
+            <div class="menu-container">
+                <div class="menu-module">
+                    <div class="title">
+                        Menu
+                    </div>
+                    <br>
+                    <h2>CHICKEN</h2>
+                    <p>
+                        <span>Roast Chicken Kebab</span>
+                        <span>$5.99</span>
+                    </p>
+                    <p>
+                        <span>Barbeque Chicken Kebab</span>
+                        <span>$5.99</span>
+                    </p>
+                    <p>
+                        <span>Greek Chicken Kebab</span>
+                        <span>$6.99</span>
+                    </p>
+                    <br>
+                    <br>
+                    <h2>BEEF</h2>
+                    <p>
+                        <span>Balsamic Brocolli Beef Kebab</span>
+                        <span>$6.99</span>
+                    </p>
+                    <p>
+                        <span>Barbeque Beef Kebab</span>
+                        <span>$6.99</span>
+                    </p>
+                    <br>
+                    <br>
+                    <h2>LAMB</h2>
+                    <p>
+                        <span>Turkish Lamb Kebab</span>
+                        <span>$7.99</span>
+                    </p>
+                    <p>
+                        <span>South American Roast Lamb Kebab</span>
+                        <span>$7.99</span>
+                    </p>
+                    <br>
+                    <br>
+                    <h2>BUILD YOUR OWN</h2>
+                    <br>
+
+
+                </div>
+            </div>
     </body>
 </html>

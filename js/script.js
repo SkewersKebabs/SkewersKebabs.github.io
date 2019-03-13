@@ -1,6 +1,6 @@
 $(document).on("scroll", function(){
     if
-  ($(document).scrollTop() > ($(window).height() * .5)){
+  ($(document).scrollTop() > ($(window).height() * .4)){
         // $("header").css("background", "rgba(29,30,34, 1)");
         $("header").css("background", "black");
 
@@ -18,7 +18,7 @@ $(document).on("scroll", function(){
 
 
 
-        $(".text").text("");
+        $(".text").css("opacity", "0");
         $(".title").css({"opacity": "1"});
 
     }
@@ -38,7 +38,7 @@ $(document).on("scroll", function(){
         $("#logo").css({"opacity": "1"});
 
 
-        $(".text").text("Menu");
+        $(".text").css("opacity", "1");
         $(".title").css({"opacity": "0"});
     }
 

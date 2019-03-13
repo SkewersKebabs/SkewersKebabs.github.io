@@ -131,11 +131,18 @@ header .navigation .tab.active:hover {
     width: 100%;
     position: fixed;
 
+    background-repeat: no-repeat;
+
 }
 
-.menubackground {
+.menu-background {
     background: url("../images/menubackground.jpg");
     background-position: center left;
+}
+
+.about-background {
+    background: url("../images/truck2.jpg");
+    background-position: center center;
 }
 
 .imageoverlay {
