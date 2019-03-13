@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Fjalla One', sans-serif;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 
@@ -188,14 +188,7 @@ header .navigation .tab#contact-tab:hover {
 
 /* ADDED NEW */
 
-.index-banner {
-    display: table;
-    position: absolute;
-    height: 20%;
-    text-align: center;
-    top: 40%;
-    width: 100%;
-}
+
 
 .index-banner-background-container {
     position: absolute;
@@ -236,7 +229,14 @@ header .navigation .tab#contact-tab:hover {
 }
 
 
-
+.index-banner {
+    display: table;
+    position: absolute;
+    height: 20%;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+}
 
 .index-banner .index-banner-content {
     color: white;
