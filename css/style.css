@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     font-family: 'Fjalla One', sans-serif;
@@ -123,10 +127,10 @@ header .navigation .tab.active:hover {
 
 .background {
     z-index: -2; 
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;  */
     height: 70%;
     width: 100%;
     position: fixed;
@@ -138,11 +142,21 @@ header .navigation .tab.active:hover {
 .menu-background {
     background: url("../images/menubackground.jpg");
     background-position: center left;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 .about-background {
     background: url("../images/truck2.jpg");
     background-position: center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 .imageoverlay {
