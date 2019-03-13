@@ -159,6 +159,16 @@ header .navigation .tab.active:hover {
     background-size: cover; 
 }
 
+.preorder-background {
+    background: url("../images/preorderbackground.jpg");
+    background-position: center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
 .imageoverlay {
     z-index: -1;
     /* background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)); */
