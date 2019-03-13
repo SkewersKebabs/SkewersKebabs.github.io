@@ -12,9 +12,9 @@ $(document).on("scroll", function(){
         // $(".container-menu").css({"background": "#2f3138"});
 
         // $("header").css("opacity", "0.3");
-        $(".tab").css("opacity", "0.4");
-        $("header").css({"background": "rgba(0, 0, 0, 0.4"});
-        $("#logo").css({"opacity": "0.4"});
+        $(".tab").css("opacity", "0.5");
+        $("header").css({"background": "rgba(0, 0, 0, 0.5"});
+        $("#logo").css({"opacity": "0.5"});
 
 
 
