@@ -229,7 +229,7 @@ header .navigation .tab.active:hover {
 .banner .text {
     display: table-cell;
     vertical-align: middle;
-    font-size: 5em;
+    font-size: 6em;
 }
 
 .menu-container {
@@ -252,7 +252,8 @@ header .navigation .tab.active:hover {
 .menu-container .menu-module {
     /* padding: 100px; */
     color: white;
-    background: url("../images/textures/mosaic.png");
+    background: url("../images/textures/blackboard2.jpg");
+    filter: contrast(0.8);
     background-repeat: repeat;
     width: 90%;
     z-index: 2;
@@ -271,7 +272,7 @@ header .navigation .tab.active:hover {
     margin-left: auto;
     display: block;
     color: white;
-    font-size: 5em;
+    font-size: 6em;
     text-align: center;
     border-bottom: 1px solid white;
     /* visibility: hidden; */
@@ -312,5 +313,13 @@ header .navigation .tab.active:hover {
 .menu-container .menu-module p span + span {
     float: right;
     padding-left: 0.33em;
+}
+
+/* NEW AFTER SHARING WITH KRIS */
+
+.menu-container .menu-module .menu-image {
+    height: 100px;
+    float: right;
+    margin-right: 100px;
 }
 
