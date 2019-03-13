@@ -304,6 +304,7 @@ header .navigation .tab.active:hover {
     margin-top: 15px;
     color: #e00000;
     font-size: .75em;
+    font-family: 'Fjalla One', sans-serif; /* NEWLY EDITED */
 }
 
 .menu-container .menu-module p span:first-child {
