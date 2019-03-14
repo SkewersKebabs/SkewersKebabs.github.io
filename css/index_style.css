@@ -200,7 +200,7 @@ header .navigation .tab#contact-tab:hover {
     background: rgba(0, 0, 0, 0.5);
     /* transform: skew(45deg); */
     height: 100%;
-    width: 35%;
+    width: 50%;
 
 }
 
@@ -212,7 +212,7 @@ header .navigation .tab#contact-tab:hover {
     background: rgba(0, 0, 0, 0.5);
     /* transform: skew(-45deg); */
     height: 100%;
-    width: 35%;
+    width: 50%;
 
 }
 
@@ -236,6 +236,18 @@ header .navigation .tab#contact-tab:hover {
     text-align: center;
     color: white;
     font-size: 3em;
+}
+
+@media(max-width: 1200px) {
+    .index-banner-outer .index-banner-inner .index-banner-content {
+        font-size: 2em;
+    }
+}
+
+@media(max-width: 600px) {
+    .index-banner-outer .index-banner-inner .index-banner-content {
+        font-size: 1em;
+    }
 }
 
 #logo {
