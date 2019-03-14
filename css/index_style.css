@@ -200,7 +200,7 @@ header .navigation .tab#contact-tab:hover {
     background: linear-gradient(rgba(0, 0, 0, 7), 70%, rgba(0, 0, 0, 0));
     /* transform: skew(45deg); */
     height: 100%;
-    width: 35%;
+    width: 650px;
 
 }
 
