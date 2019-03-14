@@ -150,8 +150,8 @@ header .navigation .tab.active:hover {
 }
 
 .about-background {
-    background: url("../images/salt-lake-city.jpg");
-    background-position: right center;
+    background: url("../images/infobackground.jpg");
+    background-position: center center;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
