@@ -196,7 +196,7 @@ header .navigation .tab#contact-tab:hover {
     position: absolute;
     top:50%;
     left:50%;
-    transform:translate(-50%, -50%) skew(40deg);
+    transform:translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.7);
     /* transform: skew(45deg); */
     height: 100%;
