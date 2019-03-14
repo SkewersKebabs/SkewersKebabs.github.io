@@ -180,7 +180,7 @@ header .navigation .tab#contact-tab:hover {
 
 
 
-/* .index-banner-background-container {
+.index-banner-background-container {
     position: absolute;
     display: table;
     height: 100%;
@@ -190,30 +190,26 @@ header .navigation .tab#contact-tab:hover {
 .index-banner-background-container-inner {
     display: table-cell;
 
-} */
+}
 
 .index-banner-background1 {
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%) skew(45deg);
     background: rgba(0, 0, 0, 0.5);
-    transform: skew(45deg);
+    /* transform: skew(45deg); */
     height: 100%;
     width: 35%;
 }
 
 .index-banner-background2 {
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) skew(-45deg);
     background: rgba(0, 0, 0, 0.5);
-    transform: skew(-45deg);
+    /* transform: skew(-45deg); */
     height: 100%;
     width: 35%;
 }
