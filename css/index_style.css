@@ -95,17 +95,7 @@ header .navigation .tab#contact-tab:hover {
     color: black !important;
 }
 
-#logo {
-    max-width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 
-    transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    margin-top: 5px;
-}
 
 .shrink {
   /* padding: 20px 0; */
@@ -229,20 +219,31 @@ header .navigation .tab#contact-tab:hover {
 }
 
 
-.index-banner {
-    display: table;
+.index-banner-outer {
     position: absolute;
-    height: 20%;
-    text-align: center;
-    top: 40%;
+    display: table;
+    height: 100%;
     width: 100%;
 }
 
-.index-banner .index-banner-content {
-    color: white;
+.index-banner-outer .index-banner-inner {
     display: table-cell;
     vertical-align: middle;
-    font-size: 2em;
-    height: 100%;
+}
 
+.index-banner-outer .index-banner-inner .index-banner-content {
+    margin: 0 auto;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+#logo {
+    /* position: absolute; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
