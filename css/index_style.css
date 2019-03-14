@@ -201,6 +201,8 @@ header .navigation .tab#contact-tab:hover {
     /* transform: skew(45deg); */
     height: 100%;
     width: 35%;
+
+    overflow: hidden;
 }
 
 .index-banner-background2 {
@@ -212,6 +214,8 @@ header .navigation .tab#contact-tab:hover {
     /* transform: skew(-45deg); */
     height: 100%;
     width: 35%;
+
+    overflow: hidden;
 }
 
 
