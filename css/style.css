@@ -150,8 +150,8 @@ header .navigation .tab.active:hover {
 }
 
 .about-background {
-    background: url("../images/truck2.jpg");
-    background-position: center center;
+    background: url("../images/salt-lake-city.jpg");
+    background-position: right center;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -171,7 +171,7 @@ header .navigation .tab.active:hover {
 
 .contact-background {
     background: url("../images/contactbackground.jpg");
-    background-position: center bottom;
+    background-position: center center;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -490,6 +490,7 @@ iframe {
   width: 400px;
   margin-left: 50px;
   margin-right: 100px;
+  box-shadow: 0px 0px 5px 1px gray;
 }
 
 #Table_01 {
