@@ -169,6 +169,16 @@ header .navigation .tab.active:hover {
     background-size: cover; 
 }
 
+.contact-background {
+    background: url("../images/contactbackground.jpg");
+    background-position: center bottom;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
 .imageoverlay {
     z-index: -1;
     /* background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)); */
@@ -264,6 +274,56 @@ header .navigation .tab.active:hover {
     box-shadow: 0px 0px 10px 2px black;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.menu-container .preorder-module {
+    /* padding: 100px; */
+    color: white;
+    background: url("../images/textures/mosaic.png");
+    background-repeat: repeat;
+    width: 90%;
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    box-shadow: 0px 0px 10px 2px black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.menu-container .about-module {
+    /* padding: 100px; */
+    color: white;
+    background: url("../images/textures/mosaic2.png");
+    background-repeat: repeat;
+    width: 90%;
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    box-shadow: 0px 0px 10px 2px black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* height: 1000px; */
+}
+
+.menu-container .contact-module {
+    /* padding: 100px; */
+    color: white;
+    background: url("../images/textures/mosaic2.png");
+    background-repeat: repeat;
+    width: 90%;
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    box-shadow: 0px 0px 10px 2px black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* height: 1000px; */
 }
 
 .title {
@@ -364,6 +424,140 @@ header .navigation .tab.active:hover {
 
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+
+
+
+
+
+
+
+
+
+.menu-container .about-module h2 {
+    margin-left: 100px;
+    /* text-decoration: underline; */
+    font-size: 3em;
+}
+
+.menu-container .about-module p {
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow-x: hidden;
+    font-size: 1.5em;
+}
+
+
+
+
+
+/* KRIS EDITS */
+
+iframe {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.about-body p {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    border-bottom: 1px solid white;
+    /* visibility: hidden; */
+    opacity: 0;
+  
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+
+/* FROM ABOUT_STYLE.CSS */
+
+#saltpic {
+  float: right;
+  height: 200px;
+  width: 400px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+#Table_01 {
+   /* position: relative; */
+   left:0px;
+   top:0px;
+   width:100%;
+}
+
+#LeftCol {
+    display: inline-block;
+
+
+}
+#MidCol {
+    display: inline-block;
+
+
+}
+#RightCol {
+    display: inline-block;
+
+
+}
+
+
+
+/* FROM CONTACT_STYLE.CSS */
+
+.contact-title {
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+form {
+    text-align: center;
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+    background: #ed072d;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #0a0001;
+    cursor: pointer;
 }
 
 
