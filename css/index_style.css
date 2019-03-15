@@ -4,7 +4,9 @@ body {
     overflow: hidden;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 header {
     z-index: 1;
