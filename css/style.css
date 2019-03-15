@@ -256,7 +256,7 @@ header .navigation .tab.active:hover {
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
 }
 
 .menu-container .menu-module {
@@ -561,20 +561,27 @@ form .submit:hover {
     cursor: pointer;
 }
 
+.phone-section {
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+}
+
 
 
 
 footer {
-    width: 100%;
-    text-align: center;
+    width: 95%;
+    text-align: right;
     position: absolute;
     color: white;
-    bottom: 30px;
+    bottom: 20px;
+    font-size: 1.5em;
 
 }
 
 .social-media {
-    max-height: 1.5em;
+    height: 1.5em;
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
