@@ -51,10 +51,12 @@ $(document).on("scroll", function(){
 // });
 
 
-function navClicked(input) {
-    input.classList.toggle("clicked");
-    $(".nav-strip").toggleClass("slide");
-}
+$(document).ready(function() {
+    $(".nav-icon").on("click touchstart", function() {
+        $(".nav-icon").toggleClass("clicked");
+        $(".nav-strip").toggleClass("slide");
+    })
+});
 
 
 // $(".nav-icon").hover(function() {
