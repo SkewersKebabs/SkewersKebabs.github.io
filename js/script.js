@@ -91,26 +91,6 @@ $(document).on("scroll", function(){
 
 //         // })
 // }); 
-
-
-
-// HERO HEADER COPIED FROM ERIC PORTER: https://codepen.io/EricPorter/pen/rLJVNv
-(function () {
-    $(window).scroll(function () { 
-        var Num = $(window).scrollTop() / 500;
-        var Num2 = $(window).scrollTop() * .0004; // higher number for more zoom
-        var Num2mod = Num2 + 1;
-        var Num3 = $(window).scrollTop() * .2; // Title speed
-        var Num3mod = Num3 + 1;
-        return $('.shader').css('opacity', Num),
-        $(".background").css({"transform":"scale(" + Num2mod + ")"}),
-        $(".videoContainer").css({"transform":"scale(" + Num2mod + ")"}),
-        $(".banner").css({"margin-top":"-" + Num3mod + "px"});
-    });
-}.call(this));
-
-
-
 $(document).ready(function() {
     $(".nav-icon").on("click touchstart", function() {
         $(".nav-icon").toggleClass("clicked");
@@ -118,3 +98,24 @@ $(document).ready(function() {
         return false;
     })
 });
+
+
+
+$(window).on("scroll", function() { 
+
+    var increment = $(window).scrollTop() / 600; // ORIGINAL INCREMENT AMOUNT
+
+    var zoom = $(window).scrollTop() * .00045; // ZOOM
+    var zoomIncrement = zoom + 1;
+    
+    var titleShift = $(window).scrollTop() * .2; // SPEED OF MOVING TITLE TEXT
+    var titleShiftIncrement = titleShift + 1;
+
+    return $('.shader').css('opacity', increment),
+        $(".background").css("transform", "scale(" + zoomIncrement + ")"),
+        $(".videoContainer").css("transform", "scale(" + titleShift + ")"),
+        $(".banner").css("margin-top", "-" + titleShiftIncrement + "px");
+}).call(this);
+
+
+
