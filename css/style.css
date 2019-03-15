@@ -9,6 +9,10 @@ body {
     background: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     z-index: 5;
     transition: all 0.2s ease-in-out;
