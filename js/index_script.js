@@ -40,12 +40,30 @@ $(document).on("scroll", function(){
     }
 });
 
-$(".tab").on("mouseover", function () {
-    $(".tab").css("background", "red");
-});
+// $(".tab").on("mouseover", function () {
+//     $(".tab").css("background", "red");
+// });
 
 // $(document).ready(function() {
 // var angle = Math.atan2($(window).width(),$(window).height()); // in radians
 // $('.index-banner-background1').css('transform','translate(-50%, -50%) skew('+angle+'rad)');
 // $('.index-banner-background2').css('transform','translate(-50%, -50%) skew(-'+angle+'rad)');
+// });
+
+
+function navClicked(input) {
+    input.classList.toggle("clicked");
+    $(".nav-strip").toggleClass("slide");
+}
+
+
+// $(".nav-icon").hover(function() {
+//         $(".clicked #bar1").css("background-color", "#E00000");
+//         $(".clicked #bar2").css("background-color", "#E00000");
+//         $(".clicked #bar3").css("background-color", "#E00000");
+//     },
+//     function() {
+//         $(".clicked #bar1").css("background-color", "black");
+//         $(".clicked #bar2").css("background-color", "black");
+//         $(".clicked #bar3").css("background-color", "black");
 // });

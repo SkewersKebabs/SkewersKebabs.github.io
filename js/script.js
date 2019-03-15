@@ -108,3 +108,10 @@ $(document).on("scroll", function(){
         $(".banner").css({"margin-top":"-" + Num3mod + "px"});
     });
 }.call(this));
+
+
+
+function navClicked(input) {
+    input.classList.toggle("clicked");
+    $(".nav-strip").toggleClass("slide");
+}
