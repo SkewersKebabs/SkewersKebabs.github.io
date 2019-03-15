@@ -607,17 +607,17 @@ footer {
 }
 
 .nav-icon-div {
-    width: 70px;
-    height: 10px;
+    width: 140px;
+    height: 20px;
     background-color: black;
-    margin: 12px 0;
+    margin: 24px 0;
     transition: 0.4s;
 }
 
 .clicked #bar1 {
-    background-color: white;
-    -webkit-transform: rotate(-45deg) translate(-18px, 12px);
-    transform: rotate(-45deg) translate(-18px, 12px);
+    background-color: #E00000;
+    -webkit-transform: rotate(-45deg) translate(-36px, 24px);
+    transform: rotate(-45deg) translate(-36px, 24px);
 }
 
 .clicked #bar2 {
@@ -625,9 +625,9 @@ footer {
 }
 
 .clicked #bar3 {
-    -webkit-transform: rotate(45deg) translate(-16px, -16px);
-    transform: rotate(45deg) translate(-16px, -16px);
-    background-color: white;
+    -webkit-transform: rotate(45deg) translate(-32px, -32px);
+    transform: rotate(45deg) translate(-32px, -32px);
+    background-color: #E00000;
 }
 
 .clicked.nav-icon {
@@ -642,7 +642,7 @@ footer {
     background: rgba(0, 0, 0, 0.9);
     width: 300px;
     height: 100%;
-    padding-top: 150px;
+    padding-top: 200px;
 
     transform: translate(-200%);
 
