@@ -326,6 +326,10 @@ header .navigation .tab.active:hover {
     /* height: 1000px; */
 }
 
+#section2 {
+    margin-top: 50px;
+}
+
 .title {
     width: 50%;
     margin-right: auto;
@@ -562,9 +566,21 @@ form .submit:hover {
 }
 
 .phone-section {
-    margin-top: 150px;
+    /* margin-top: 150px; */
     width: 100%;
     text-align: center;
+}
+
+.social-section {
+    /* margin-top: 150px; */
+    width: 100%;
+    text-align: center;
+}
+
+.info-social-media {
+    height: 5em;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
