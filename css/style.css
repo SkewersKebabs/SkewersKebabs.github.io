@@ -502,7 +502,6 @@ header .navigation .tab.active:hover {
 }
 
 #Table_01 {
-   margin-right: 100px;
 }
 
 #LeftCol {
@@ -710,12 +709,16 @@ footer {
 }
 
 .maps {
+    height: 300px;
     margin-left: 100px;
+    margin-right: 100px;
 }
 
-.maps td iframe {
-    max-width: 100%;
+.maps iframe {
+    width: 100%;
+    height: 100%;
 }
+
 
 .menu-note {
     text-align: center;
