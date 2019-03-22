@@ -462,7 +462,7 @@ header .navigation .tab.active:hover {
 
 /* KRIS EDITS */
 
-iframe {
+.preorder-form {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
@@ -505,22 +505,24 @@ iframe {
    /* position: relative; */
    left:0px;
    top:0px;
-   width:100%;
+   margin-right: 100px;
 }
 
 #LeftCol {
     display: inline-block;
+    float: left;
 
 
 }
 #MidCol {
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
 #RightCol {
     display: inline-block;
-
 
 }
 
@@ -711,5 +713,9 @@ footer {
     header {
         visibility: hidden;
     }
+}
+
+.maps {
+    margin-left: 100px;
 }
 
