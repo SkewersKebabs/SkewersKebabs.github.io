@@ -502,22 +502,16 @@ header .navigation .tab.active:hover {
 }
 
 #Table_01 {
-   /* position: relative; */
-   left:0px;
-   top:0px;
    margin-right: 100px;
 }
 
 #LeftCol {
     display: inline-block;
-    float: left;
 
 
 }
 #MidCol {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
 
 
 }
@@ -717,5 +711,9 @@ footer {
 
 .maps {
     margin-left: 100px;
+}
+
+.maps td iframe {
+    max-width: 100%;
 }
 
